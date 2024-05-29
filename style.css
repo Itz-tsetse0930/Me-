@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 4rem;
+  font-size: larger;
+}
+.page a {
+  height: 8px 20px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.page p {
+  margin: 10px;
+  padding: 20px;
+  background-color: azure;
+  border-radius: 8px;
+}
+.page h1 {
+  color: white;
+}
+#page1 {
+  background: url("Photo\ \(1\ of\ 1\).jpg") no-repeat center center/cover;
+}
+#page2 {
+  background: url("Photo\ \(1\ of\ 5\).jpg") no-repeat center center/cover;
+}
+#page3 {
+  background: url("Photo\ \(2\ of\ 2\).jpg") no-repeat center center/cover;
+}
+#page4 {
+  background: url("1_d8906b1008.jpg") no-repeat center center/cover;
+}
+#page5 {
+  background: url("хяргас\ нуур1.jpg") no-repeat center center/cover;
+}
